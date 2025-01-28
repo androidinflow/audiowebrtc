@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.status {
+    margin: 20px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.connected {
+    background-color: #90EE90;
+    color: #006400;
+}
+
+.disconnected {
+    background-color: #FFB6C1;
+    color: #8B0000;
+}
+
+.controls {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.room-controls {
+    margin: 20px 0;
+}
+
+#roomInput {
+    padding: 8px;
+    margin-right: 10px;
+}

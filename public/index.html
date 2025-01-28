@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Audio Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simple Audio Chat</h1>
+        <div class="room-controls">
+            <input type="text" id="roomInput" placeholder="Enter room ID">
+            <button id="joinRoom">Join Room</button>
+        </div>
+        <div id="status" class="status disconnected">Disconnected</div>
+        <div class="controls">
+            <button id="startButton" disabled>Start Talking</button>
+            <button id="stopButton" disabled>Stop Talking</button>
+        </div>
+    </div>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="client.js"></script>
+</body>
+</html>
